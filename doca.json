@@ -1,0 +1,42 @@
+{
+  "title": "Doca Docs",
+  "description": "Documentation built with Doca — a modern, lightweight docs-as-code engine.",
+  "author": "Mohammed Amin Salmany",
+  "docs_dir": "docs",
+  "out_dir": "site",
+  "lang": "en",
+  "repo": "mohammedaminsalmany/doca",
+  "edit_url": "https://github.com/mohammedaminsalmany/doca/edit/main/docs",
+  "theme": {
+    "accent": "#6366f1",
+    "default": "auto"
+  },
+  "nav": [
+    {
+      "title": "Introduction",
+      "path": "index.md"
+    },
+    {
+      "title": "Guides",
+      "items": [
+        {
+          "title": "Getting started",
+          "path": "getting-started.md"
+        },
+        {
+          "title": "Configuration",
+          "path": "configuration.md"
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "text": "MIT Licensed · Doca 0.1.0",
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/mohammedaminsalmany/doca"
+      }
+    ]
+  }
+}

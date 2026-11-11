@@ -1,0 +1,60 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "doca"
+version = "0.1.0"
+description = "Doca — a modern, lightweight docs-as-code engine and static documentation generator"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "Mohammed Amin Salmany", email = "mohammedaminsalmany@gmail.com" }
+]
+keywords = [
+  "documentation",
+  "docs-as-code",
+  "static-site-generator",
+  "markdown",
+  "docs",
+  "python",
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Documentation",
+  "Topic :: Software Development :: Documentation",
+  "Topic :: Text Processing :: Markup",
+  "Typing :: Typed",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = []
+
+[project.scripts]
+doca = "doca.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/mohammedaminsalmany/doca"
+Documentation = "https://github.com/mohammedaminsalmany/doca#readme"
+Repository = "https://github.com/mohammedaminsalmany/doca"
+Issues = "https://github.com/mohammedaminsalmany/doca/issues"
+Changelog = "https://github.com/mohammedaminsalmany/doca/releases"
+
+[tool.setuptools]
+packages = ["doca"]
+include-package-data = true
+
+[tool.setuptools.package-data]
+doca = ["py.typed"]
