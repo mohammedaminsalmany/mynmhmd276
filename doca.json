@@ -5,8 +5,8 @@
   "docs_dir": "docs",
   "out_dir": "site",
   "lang": "en",
-  "repo": "mohammedaminsalmany/doca",
-  "edit_url": "https://github.com/mohammedaminsalmany/doca/edit/main/docs",
+  "repo": "mohammedaminsalmany/mynmhmd276",
+  "edit_url": "https://github.com/mohammedaminsalmany/mynmhmd276/edit/main/docs",
   "theme": {
     "accent": "#6366f1",
     "default": "auto"
@@ -35,7 +35,7 @@
     "links": [
       {
         "label": "GitHub",
-        "url": "https://github.com/mohammedaminsalmany/doca"
+        "url": "https://github.com/mohammedaminsalmany/mynmhmd276"
       }
     ]
   }

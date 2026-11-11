@@ -46,11 +46,11 @@ dev = []
 doca = "doca.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/mohammedaminsalmany/doca"
-Documentation = "https://github.com/mohammedaminsalmany/doca#readme"
-Repository = "https://github.com/mohammedaminsalmany/doca"
-Issues = "https://github.com/mohammedaminsalmany/doca/issues"
-Changelog = "https://github.com/mohammedaminsalmany/doca/releases"
+Homepage = "https://github.com/mohammedaminsalmany/mynmhmd276"
+Documentation = "https://github.com/mohammedaminsalmany/mynmhmd276#readme"
+Repository = "https://github.com/mohammedaminsalmany/mynmhmd276"
+Issues = "https://github.com/mohammedaminsalmany/mynmhmd276/issues"
+Changelog = "https://github.com/mohammedaminsalmany/mynmhmd276/releases"
 
 [tool.setuptools]
 packages = ["doca"]

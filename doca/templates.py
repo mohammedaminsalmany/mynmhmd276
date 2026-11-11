@@ -89,7 +89,7 @@ def _footer_html(config: dict[str, Any]) -> str:
             links.append(
                 f'<a href="{escape(str(link["url"]), quote=True)}">{escape(str(link.get("label") or link["url"]))}</a>'
             )
-    built = '<span class="footer-built">Built with <a href="https://github.com/mohammedaminsalmany/doca">Doca</a></span>'
+    built = '<span class="footer-built">Built with <a href="https://github.com/mohammedaminsalmany/mynmhmd276">Doca</a></span>'
     return f"<span>{escape(text)}</span><span class=\"footer-links\">{' '.join(links)}{built}</span>"
 
 

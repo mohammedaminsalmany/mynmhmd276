@@ -21,7 +21,7 @@ __description__ = "Modern, lightweight docs-as-code engine and static documentat
 __author__ = "Mohammed Amin Salmany"
 __author_email__ = "mohammedaminsalmany@gmail.com"
 __license__ = "MIT"
-__url__ = "https://github.com/mohammedaminsalmany/doca"
+__url__ = "https://github.com/mohammedaminsalmany/mynmhmd276"
 
 from .builder import (  # noqa: E402  (after version metadata to avoid a cycle)
     BuildResult,

@@ -87,7 +87,7 @@ Doca needs **Python 3.10 or newer**. There are no third-party packages to instal
 Install Doca from source with pip:
 
 ```bash
-git clone https://github.com/mohammedaminsalmany/doca.git
+git clone https://github.com/mohammedaminsalmany/mynmhmd276.git
 cd doca
 pip install -e .
 ```

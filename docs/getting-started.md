@@ -23,7 +23,7 @@ python3 --version
 Install Doca from source with pip:
 
 ```bash
-git clone https://github.com/mohammedaminsalmany/doca.git
+git clone https://github.com/mohammedaminsalmany/mynmhmd276.git
 cd doca
 pip install -e .
 ```

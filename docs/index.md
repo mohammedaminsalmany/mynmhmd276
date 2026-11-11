@@ -11,7 +11,7 @@ site — with full-text search, a collapsible sidebar, automatic tables of
 contents and a dark/light theme, using nothing but the Python standard library.
 
 ```bash
-git clone https://github.com/mohammedaminsalmany/doca.git
+git clone https://github.com/mohammedaminsalmany/mynmhmd276.git
 cd doca && pip install -e .
 doca init my-docs
 cd my-docs

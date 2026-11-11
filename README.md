@@ -2,7 +2,7 @@
 
 > A modern, lightweight **docs-as-code** engine and static documentation generator — pure Python, zero dependencies.
 
-[![CI](https://github.com/mohammedaminsalmany/doca/actions/workflows/ci.yml/badge.svg)](https://github.com/mohammedaminsalmany/doca/actions/workflows/ci.yml)
+[![CI](https://github.com/mohammedaminsalmany/mynmhmd276/actions/workflows/ci.yml/badge.svg)](https://github.com/mohammedaminsalmany/mynmhmd276/actions/workflows/ci.yml)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 [![Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](#architecture)
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
@@ -41,7 +41,7 @@ doca serve
 Doca requires **Python 3.10 or newer**.
 
 ```bash
-git clone https://github.com/mohammedaminsalmany/doca.git
+git clone https://github.com/mohammedaminsalmany/mynmhmd276.git
 cd doca
 pip install -e .
 ```
@@ -222,7 +222,7 @@ including footer links, edit links and how to hide draft files.
 ## Development
 
 ```bash
-git clone https://github.com/mohammedaminsalmany/doca.git
+git clone https://github.com/mohammedaminsalmany/mynmhmd276.git
 cd doca
 python -m unittest discover -s tests -v
 doca build
